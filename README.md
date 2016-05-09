@@ -23,12 +23,12 @@ There are more options to set in `setup_network.sh`. No special characters
 ### `./add_relay.sh`
 Add another relay node to an existing ContainTor network. E.g.
 
-     echo "torrelay4,11.2.0.4" | ./add_relay.sh testtornet tordirectory 11.9.0.1
+     echo "torrelay4,10.2.0.4" | ./add_relay.sh tornet tordirectory 10.9.0.1
 
-### `./add_relay.sh`
+### `./add_client.sh`
 Add another client node to an existing ContainTor network. E.g.
 
-    echo "torclient2,11.1.0.2" | ./add_client.sh testtornet tordirectory 11.9.0.1
+    echo "torclient2,10.1.0.2" | ./add_client.sh tornet tordirectory 10.9.0.1
 
 ## Troubleshooting
 It can take some time for the Tor nodes to find each other. It can help to
